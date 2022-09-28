@@ -1,0 +1,55 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.cart-summery {
+    background-color: wheat;
+    height: 100vh;
+    width: 350px;
+    position: absolute;
+    right: 0;
+}
+
+.name-location-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.personal-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.per-data-up {
+    margin-bottom: 0;
+}
+
+.per-data-down {
+    margin-top: 0;
+}
+
+.per-fade-data {
+    color: gray;
+    font-size: 12px;
+}
+
+.per-data-container {
+    display: flex;
+    gap: 30px;
+    margin: 2% 10% auto;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.break-btn-container {
+    /* display: flex; */
+    margin-right: 20px;
+    display: inline-block;
+}
