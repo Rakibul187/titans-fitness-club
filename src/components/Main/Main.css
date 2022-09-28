@@ -4,7 +4,7 @@
 }
 
 .cart-summery {
-    background-color: wheat;
+    background-color: rgb(228, 223, 214);
     height: 100vh;
     width: 350px;
     position: absolute;
@@ -34,7 +34,7 @@
 }
 
 .per-fade-data {
-    color: gray;
+    color: rgb(70, 60, 60);
     font-size: 12px;
 }
 
@@ -42,14 +42,51 @@
     display: flex;
     gap: 30px;
     margin: 2% 10% auto;
-    background-color: bisque;
+    background-color: rgba(78, 54, 54, 0.313);
     border-radius: 20px;
     padding: 10px;
     line-height: 10px;
 }
 
 .break-btn-container {
-    /* display: flex; */
-    margin-right: 20px;
+    background-color: gray;
+    margin: 2% 10% auto;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.break-time-btn {
     display: inline-block;
+    margin-right: 15px;
+    border: none;
+    padding: 7px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.break-exercise {
+    background-color: rgb(227, 197, 197);
+    margin: 2% 10% auto;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.break-exercise-time {
+    color: rgba(128, 128, 128, 0.96);
+}
+
+.activity-btn {
+    background-color: blue;
+    padding: 12px 12px;
+    margin: 0 20% auto;
+    color: wheat;
+    font-size: 17px;
+    margin-top: 40px;
+    border-radius: 15px;
+    cursor: pointer;
 }

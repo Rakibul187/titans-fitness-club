@@ -41,6 +41,14 @@ const Main = () => {
                         <button className='break-time-btn'>50</button>
                     </div>
                 </div>
+                <div className='exercise-details'>
+                    <h2>Exercise details</h2>
+                    <div>
+                        <h3 className='break-exercise'><span>Exercise time</span> <span className='break-exercise-time'>0 minutes</span></h3>
+                        <h3 className='break-exercise'><span>Break time</span> <span className='break-exercise-time' >0 minutes</span></h3>
+                    </div>
+                </div>
+                <div><p className='activity-btn'>Activity Completed</p></div>
             </div>
         </div>
     );
