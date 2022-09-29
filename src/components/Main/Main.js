@@ -4,16 +4,21 @@ import { useEffect, useState } from 'react';
 import Workout from '../Workout/Workout';
 const Main = () => {
     const [exercise, setExercise] = useState([])
+    const [time, setTime] = useState(0)
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
             .then(data => setExercise(data))
     })
-    console.log(exercise)
+
+    const handleAddTime = (getTime) => {
+        const totalTime = time + getTime;
+        setTime(totalTime)
+    }
     return (
         <div className='main-container'>
             <div className='exercise-container'>
-                {exercise.map(exerciseItem => <Workout key={exerciseItem.list} exercise={exerciseItem}></Workout>)}
+                {exercise.map(exerciseItem => <Workout key={exerciseItem.list} handleAddTime={handleAddTime} exercise={exerciseItem}></Workout>)}
             </div>
             <div className='cart-summery'>
                 <div className='personal-info'>
@@ -52,7 +57,7 @@ const Main = () => {
                 <div className='exercise-details'>
                     <h2>Exercise details</h2>
                     <div>
-                        <h3 className='break-exercise'><span>Exercise time</span> <span className='break-exercise-time'>0 minutes</span></h3>
+                        <h3 className='break-exercise'><span>Exercise time</span> <span className='break-exercise-time'>{time} minutes</span></h3>
                         <h3 className='break-exercise'><span>Break time</span> <span className='break-exercise-time' >0 minutes</span></h3>
                     </div>
                 </div>
