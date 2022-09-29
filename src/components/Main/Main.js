@@ -2,6 +2,7 @@ import './Main.css'
 import logo from "../../pexels.webp"
 import { useEffect, useState } from 'react';
 import Workout from '../Workout/Workout';
+import { ToastContainer, toast } from 'react-toastify';
 const Main = () => {
     const [exercise, setExercise] = useState([]);
     const [time, setTime] = useState(0);
@@ -20,6 +21,10 @@ const Main = () => {
             .then(data => setExercise(data))
     })
 
+    const diffToast = () => {
+
+        toast('wow congratulation you are done')
+    }
     const handleAddTime = (getTime) => {
         const totalTime = time + getTime;
         setTime(totalTime)
@@ -73,7 +78,9 @@ const Main = () => {
                         <h3 className='break-exercise'><span>Break time</span> <span className='break-exercise-time' >{breakTime ? breakTime : 0} minutes</span></h3>
                     </div>
                 </div>
-                <div><p className='activity-btn'>Activity Completed</p></div>
+                <div><button onClick={diffToast} className='activity-btn'>Activity Completed</button>
+                    <ToastContainer></ToastContainer>
+                </div>
             </div>
         </div>
     );
