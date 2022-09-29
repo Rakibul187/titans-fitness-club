@@ -1,8 +1,7 @@
 .blog-container {
-    border: 1px solid grey;
     margin: 150px 0 0;
     padding: 30px 70px;
-    background-color: grey;
+    background-color: rgb(242, 242, 253);
 }
 
 .blog {

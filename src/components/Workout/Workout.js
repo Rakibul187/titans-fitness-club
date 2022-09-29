@@ -5,9 +5,9 @@ const Workout = ({ exercise, handleAddTime }) => {
     return (
         <div className='exercise-item-cart'>
             <img src={img} alt="" />
-            <h2>{category}</h2>
+            <h2 className='category'>{category}</h2>
             <p>{benifit}</p>
-            <h5>Time: {time}</h5>
+            <h4>Time: {time}minutes</h4>
             <button onClick={() => handleAddTime(time)} type='button'>Add To List</button>
         </div>
     );

@@ -1,5 +1,34 @@
 .header {
     background-color: black;
-    padding: 17px 50px;
+    padding: 20px 0;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: 80px;
+    align-items: center;
+}
+
+.logo-icon {
+    font-size: 40px;
+    margin-right: 5px;
+    color: brown;
+}
+
+.navItem {
+    margin-right: 80px;
+}
+
+.navItem span {
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+.navItem span:hover {
+    color: brown;
+    cursor: pointer;
 }

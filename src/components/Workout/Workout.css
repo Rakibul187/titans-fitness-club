@@ -1,15 +1,20 @@
 .exercise-item-cart {
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     width: 300px;
     height: 420px;
     padding: 10px;
     border-radius: 12px;
     position: relative;
-    background-color: rgba(230, 222, 222, 0.729);
+    box-shadow: 2px 2px 18px gray;
 }
+
+/* .category {
+    color: rgb(98, 69, 69);
+} */
 
 .exercise-item-cart img {
     width: 300px;
+    height: 45%;
     border-radius: 10px;
 }
 
@@ -26,12 +31,21 @@
 
 .exercise-item-cart button {
     padding: 10px 20px;
-    width: 95%;
+    width: 100%;
     text-align: center;
-    border-radius: 10px;
-    background-color: seagreen;
-    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: brown;
     bottom: 0;
     border: none;
-    color: wheat;
+    color: white;
+    position: absolute;
+    margin: auto;
+    font-size: 16px;
+    left: 0;
+    cursor: pointer;
+}
+
+.exercise-item-cart button:hover {
+    background-color: rgb(223, 34, 34);
 }

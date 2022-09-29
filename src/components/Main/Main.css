@@ -6,25 +6,36 @@
 .exercise-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 25px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.workout-heading {
+    margin-left: 70px;
     margin-top: 50px;
-    margin-left: 50px;
 }
 
 .cart-summery {
-    background-color: rgb(228, 223, 214);
-    height: 100vh;
-    width: 350px;
+    background-color: rgb(242, 242, 253);
+    height: 85vh;
+    width: 300px;
     position: absolute;
     right: 0;
     padding: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .name-location-img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 
+}
+
+.name-location-img p {
+    color: grey;
 }
 
 .personal-img {
@@ -32,6 +43,7 @@
     height: 50px;
     border-radius: 50px;
     background-color: red;
+    margin-right: 7px;
 }
 
 .per-data-up {
@@ -43,26 +55,40 @@
 }
 
 .per-fade-data {
-    color: rgb(70, 60, 60);
+    color: grey;
     font-size: 12px;
 }
 
 .per-data-container {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     gap: 30px;
-    margin: 2% 10% auto;
-    background-color: rgba(78, 54, 54, 0.313);
+    background-color: rgb(237, 219, 219);
     border-radius: 20px;
     padding: 10px;
     line-height: 10px;
+    margin-bottom: 40px;
 }
 
 .break-btn-container {
-    background-color: gray;
-    margin: 2% 10% auto;
+    background-color: rgb(237, 219, 219);
     border-radius: 15px;
     padding: 10px;
     line-height: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+    margin-bottom: 35px;
+}
+
+.break-container {
+    margin-top: 25px;
+}
+
+.break-container h3 {
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 .break-time-btn {
@@ -74,9 +100,12 @@
     cursor: pointer;
 }
 
+.exercise-details h2 {
+    margin: 30px 10px 10px;
+}
+
 .break-exercise {
-    background-color: rgb(227, 197, 197);
-    margin: 2% 10% auto;
+    background-color: rgb(237, 219, 219);
     border-radius: 15px;
     padding: 10px;
     line-height: 22px;
@@ -90,12 +119,36 @@
 }
 
 .activity-btn {
-    background-color: blue;
+    text-align: center;
+    background-color: brown;
+    color: white;
     padding: 12px 12px;
-    margin: 0 20% auto;
-    color: wheat;
+    margin: 0 10% auto;
     font-size: 17px;
-    margin-top: 40px;
+    margin-top: 45px;
+    font-weight: 500;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.activity-btn:hover {
+    background-color: rgb(223, 34, 34);
+}
+
+/* 320px — 480px 360 x 640. */
+@media screen and (max-width: 600px) {
+    .main-container {
+        display: grid;
+        grid-row: auto;
+    }
+
+    .cart-summery {
+        background-color: rgb(242, 242, 253);
+        height: 600pxvh;
+        width: 300px;
+        position: absolute;
+        padding: 20px;
+        bottom: 0;
+    }
+
 }
