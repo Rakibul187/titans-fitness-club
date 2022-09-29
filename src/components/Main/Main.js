@@ -5,10 +5,15 @@ import Workout from '../Workout/Workout';
 const Main = () => {
     const [exercise, setExercise] = useState([]);
     const [time, setTime] = useState(0);
-
+    const [breakTime, setBreakTime] = useState(0)
+    const handleBreakTime = (breakTim) => {
+        setBreakTime(breakTim)
+        localStorage.setItem('time', breakTim)
+    }
     useEffect(() => {
-
-    }, [])
+        const newTime = localStorage.getItem('time')
+        setBreakTime(newTime)
+    }, [time])
     useEffect(() => {
         fetch('exercise.json')
             .then(res => res.json())
@@ -54,18 +59,18 @@ const Main = () => {
                 <div className='break-container'>
                     <h3>Add A Break</h3>
                     <div className='break-btn-container'>
-                        <button className='break-time-btn'>10</button>
-                        <button className='break-time-btn'>20</button>
-                        <button className='break-time-btn'>30</button>
-                        <button className='break-time-btn'>40</button>
-                        <button className='break-time-btn'>50</button>
+                        <button onClick={() => handleBreakTime(5)} className='break-time-btn'>5min</button>
+                        <button onClick={() => handleBreakTime(10)} className='break-time-btn'>10min</button>
+                        <button onClick={() => handleBreakTime(15)} className='break-time-btn'>15min</button>
+                        <button onClick={() => handleBreakTime(20)} className='break-time-btn'>20min</button>
+                        <button onClick={() => handleBreakTime(25)} className='break-time-btn'>25min</button>
                     </div>
                 </div>
                 <div className='exercise-details'>
                     <h2>Exercise details</h2>
                     <div>
                         <h3 className='break-exercise'><span>Exercise time</span> <span className='break-exercise-time'>{time} minutes</span></h3>
-                        <h3 className='break-exercise'><span>Break time</span> <span className='break-exercise-time' >0 minutes</span></h3>
+                        <h3 className='break-exercise'><span>Break time</span> <span className='break-exercise-time' >{breakTime} minutes</span></h3>
                     </div>
                 </div>
                 <div><p className='activity-btn'>Activity Completed</p></div>
