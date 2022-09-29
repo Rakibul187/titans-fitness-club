@@ -59,11 +59,11 @@ const Main = () => {
                 <div className='break-container'>
                     <h3>Add A Break</h3>
                     <div className='break-btn-container'>
-                        <button onClick={() => handleBreakTime(5)} className='break-time-btn'>5min</button>
-                        <button onClick={() => handleBreakTime(10)} className='break-time-btn'>10min</button>
-                        <button onClick={() => handleBreakTime(15)} className='break-time-btn'>15min</button>
-                        <button onClick={() => handleBreakTime(20)} className='break-time-btn'>20min</button>
-                        <button onClick={() => handleBreakTime(25)} className='break-time-btn'>25min</button>
+                        <button onClick={() => handleBreakTime(5)} className='break-time-btn'>5m</button>
+                        <button onClick={() => handleBreakTime(10)} className='break-time-btn'>10m</button>
+                        <button onClick={() => handleBreakTime(15)} className='break-time-btn'>15m</button>
+                        <button onClick={() => handleBreakTime(20)} className='break-time-btn'>20m</button>
+                        <button onClick={() => handleBreakTime(25)} className='break-time-btn'>25m</button>
                     </div>
                 </div>
                 <div className='exercise-details'>

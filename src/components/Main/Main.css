@@ -8,7 +8,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 .workout-heading {
@@ -19,7 +19,7 @@
 .cart-summery {
     background-color: rgb(242, 242, 253);
     height: 85vh;
-    width: 320px;
+    width: 300px;
     position: absolute;
     right: 0;
     padding: 20px;
@@ -157,8 +157,6 @@
 
 @media only screen and (max-width:688px) {
     .main-container {
-        /* display: grid;
-        grid-template-columns: repeat(1, 1fr); */
         display: flex;
         flex-wrap: wrap;
     }
