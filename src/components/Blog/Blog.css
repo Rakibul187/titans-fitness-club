@@ -1,0 +1,10 @@
+.blog-container {
+    border: 1px solid grey;
+    margin: 100px 0;
+    padding: 0 30px;
+    background-color: grey;
+}
+
+.blog {
+    margin-bottom: 30px;
+}
