@@ -3,12 +3,21 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.exercise-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 .cart-summery {
     background-color: rgb(228, 223, 214);
     height: 100vh;
     width: 350px;
     position: absolute;
     right: 0;
+    padding: 20px;
 }
 
 .name-location-img {

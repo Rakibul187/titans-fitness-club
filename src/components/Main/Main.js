@@ -1,11 +1,19 @@
-import React from 'react';
 import './Main.css'
 import logo from "../../logo.svg"
+import { useEffect, useState } from 'react';
+import Workout from '../Workout/Workout';
 const Main = () => {
+    const [exercise, setExercise] = useState([])
+    useEffect(() => {
+        fetch('exercise.json')
+            .then(res => res.json())
+            .then(data => setExercise(data))
+    })
+    console.log(exercise)
     return (
         <div className='main-container'>
-            <div>
-                <h2>exercise item</h2>
+            <div className='exercise-container'>
+                {exercise.map(exerciseItem => <Workout key={exerciseItem.list} exercise={exerciseItem}></Workout>)}
             </div>
             <div className='cart-summery'>
                 <div className='personal-info'>
@@ -19,15 +27,15 @@ const Main = () => {
                     <div className='per-data-container'>
                         <div >
                             <h2 className='per-data-up'><span>63<small className='per-fade-data'>kg</small></span></h2>
-                            <h2 className='per-data-down'><smal className='per-fade-data'>Weight</smal></h2>
+                            <h2 className='per-data-down'><small className='per-fade-data'>Weight</small></h2>
                         </div>
                         <div>
                             <h2 className='per-data-up'><span>5.7<small className='per-fade-data'>feet</small></span></h2>
-                            <h2 className='per-data-down'><smal className='per-fade-data'>Height</smal></h2>
+                            <h2 className='per-data-down'><small className='per-fade-data'>Height</small></h2>
                         </div>
                         <div>
                             <h2 className='per-data-up'><span>24<small className='per-fade-data'>Years</small></span></h2>
-                            <h2 className='per-data-down'><smal className='per-fade-data'>Age</smal></h2>
+                            <h2 className='per-data-down'><small className='per-fade-data'>Age</small></h2>
                         </div>
                     </div>
                 </div>

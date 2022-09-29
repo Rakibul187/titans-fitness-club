@@ -1,0 +1,86 @@
+[
+    {
+        "list": "1",
+        "category": "Pushups",
+        "benifit": "Pushups work multiple muscle groups, strengthening the arms, chest, and shoulders.after the gym feeling good.",
+        "time": 15,
+        "img": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHVzaHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "list": "2",
+        "category": "Bodyweight squats",
+        "benifit": "Bodyweight squats can increase lower body and core strength as they work the abs, buttocks, hips, thighs, calves, and shins.",
+        "time": 15,
+        "img": "https://media.istockphoto.com/photos/bearded-athletic-man-squats-with-a-medical-ball-in-the-gym-warmup-and-picture-id1371890114?b=1&k=20&m=1371890114&s=170667a&w=0&h=UuK_nReyX4jBBpFBIypw5prJ5W4uZyTMT5vfeQFB4qo="
+    },
+    {
+        "list": "3",
+        "category": "Lunges",
+        "benifit": "Lunges work the thighs, buttocks, hips, and abdominal muscles.help to feel good. lung will long time without deasese",
+        "time": 12,
+        "img": "https://media.istockphoto.com/photos/black-guy-doing-forward-lunge-exercise-at-laptop-at-home-picture-id1322900654?b=1&k=20&m=1322900654&s=170667a&w=0&h=toDAMxSCHUrN62JO4NxVlfGKO2au7f9pJ9vB4NcyOXk="
+    },
+    {
+        "list": "4",
+        "category": "Running",
+        "benifit": "Running is a form of aerobic exercise, and it can help improve cardiovascular fitness and bone strength. Jogging and may be best for beginners.",
+        "time": 20,
+        "img": "https://media.istockphoto.com/photos/fitness-woman-running-training-for-marathon-on-sunny-coast-trail-picture-id1324624694?b=1&k=20&m=1324624694&s=170667a&w=0&h=vyq-iITftx7p7NVVT-piyVm720trC2YdC0ei_PEYtgM="
+    },
+    {
+        "list": "5",
+        "category": "Side planks",
+        "benifit": "Side planks help build core strength, which can help reduce lower back pain. Side planks work the buttocks, hips, and abdominal muscles.",
+        "time": 10,
+        "img": "https://media.istockphoto.com/photos/man-doing-side-plank-exercise-in-gym-picture-id1139410218?b=1&k=20&m=1139410218&s=170667a&w=0&h=hi57CXv1VPKwjdwbz2f5uZ8ZRQEGT709YU_JMuf_uvE="
+    },
+    {
+        "list": "6",
+        "category": "Planks",
+        "benifit": "Planks strengthen the back and abdominal muscles and help build core strength.",
+        "time": 12,
+        "img": "https://media.istockphoto.com/photos/how-long-can-you-hold-a-plank-picture-id484942652?b=1&k=20&m=484942652&s=170667a&w=0&h=Fam38wCuC6uSFI7sdjGKx2mFROkBvQMQDrugm2rvjwo="
+    },
+    {
+        "list": "7",
+        "category": "Knee tucks",
+        "benifit": "Knee tucks work the abdominals, calves, and shins. People will need an exercise ball, sometimes called a stability ball, for this exercise.",
+        "time": 15,
+        "img": "https://images.unsplash.com/photo-1607962837359-5e7e89f86776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGtuZWUlMjB0dWNrcyUyMGV4ZXJjaXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "list": "8",
+        "category": "Glute bridge",
+        "benifit": "The glute bridge is good for the muscles in the back of the body, known as the posterior chain.",
+        "time": 10,
+        "img": "https://media.istockphoto.com/photos/one-leg-glute-bridge-picture-id1094563586?b=1&k=20&m=1094563586&s=170667a&w=0&h=g7EOIdKUxxwyEGl4blMPGb3kxFqAhQmRoHNtNdCc8s8="
+    },
+    {
+        "list": "9",
+        "category": "Dumbbell rows",
+        "benifit": "Dumbbell rows can strengthen the back and increase muscle growth. An increase in muscle strength also causes the body ",
+        "time": 12,
+        "img": "https://media.istockphoto.com/photos/were-getting-stronger-together-picture-id1002863100?b=1&k=20&m=1002863100&s=170667a&w=0&h=uomVFUhbkCYU97gSsrrXS13GbXSgG1mnOp5byA_HUsw="
+    },
+    {
+        "list": "10",
+        "category": "Pike roll-out",
+        "benifit": "A pike roll-out works the abdominal, arm, and shoulder muscles. People will need a stability ball.",
+        "time": 5,
+        "img": "https://media.istockphoto.com/photos/athlete-using-a-foam-roller-picture-id1194299468?b=1&k=20&m=1194299468&s=170667a&w=0&h=Ed_RIz3SLHYpDS16HAhEBh0q44olOtV_HWmrf8R_1Yg="
+    },
+    {
+        "list": "11",
+        "category": "Crow Stand",
+        "benifit": "The Crow Stand is a yoga pose that improves balance and can help build wrist, arm, and core strength.",
+        "time": 8,
+        "img": "https://media.istockphoto.com/photos/keeping-balance-in-crow-pose-woman-doing-yoga-on-a-coastline-picture-id1097435536?b=1&k=20&m=1097435536&s=170667a&w=0&h=oSkh8jNIRk9vxGGYhNSqR3pi7LXJNrKJ9RApFFi1cDU="
+    },
+    {
+        "list": "12",
+        "category": "Swimming",
+        "benifit": "Swimming uses almost all the muscle groups but is a low impact exercise. Therefore, it may suit people with certain injuries or health conditions.",
+        "time": 20,
+        "img": "https://media.istockphoto.com/photos/perfect-butterfly-stroke-picture-id459214425?b=1&k=20&m=459214425&s=170667a&w=0&h=FHVP4_EKEPkIzbdPfjhm6P_WHYvFbouhwlKHijk2zww="
+    }
+]
