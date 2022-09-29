@@ -32,3 +32,18 @@
     color: brown;
     cursor: pointer;
 }
+
+@media only screen and (max-width:688px) {
+    .header {
+        background-color: black;
+        padding: 20px 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        display: flex;
+        margin-left: 30px;
+    }
+}
